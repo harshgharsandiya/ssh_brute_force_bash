@@ -32,6 +32,6 @@ cd ssh-brute-force-bash
 2. Run 
 ```bash
 chmod +x ssh_brute_force.sh
-./ssh_brute_force.sh <target_ip> <username> <password_list>
+sudo ./ssh_brute_force.sh <target_ip> -u <username> [ -p <password_list>] [-t <num_threads] [-o <output_file>] [-v <verbose_output>]
 ```
 
