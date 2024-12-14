@@ -16,7 +16,7 @@ usage(){
     echo "  -o    Output File            (optional)"
     echo "  -v    Verbose Output         (optional)"
     exit 1
-}
+} 
 
 verbose(){
     if [ "$VERBOSE" -eq 1 ]; then

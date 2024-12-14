@@ -13,7 +13,7 @@ This tool brute force ssh attack from given username and password list using bas
 - Use `sshpass` to attempt non-interactive SSH logins.
 - If password found, this tool let you know.
 
---
+---
 
 ## **Requirements**
 - **OpenSSH Server** (configured on target)
@@ -28,7 +28,7 @@ cd ssh-brute-force-bash
 ```
 
 2. Run 
-``bash
+```bash
 chmod +x ssh_brute_force.sh
 ./ssh_brute_force.sh <target_ip> <username> <password_list>
 ```
