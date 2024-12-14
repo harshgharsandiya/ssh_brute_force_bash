@@ -19,6 +19,8 @@ This tool brute force ssh attack from given username and password list using bas
 - **OpenSSH Server** (configured on target)
 - **sshpass** (install on your machine)
 
+---
+
 ## **Usage**
  
 1. Clone Repo
